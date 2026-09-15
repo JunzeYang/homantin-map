@@ -1,0 +1,20 @@
+﻿Road Class,Directed Links,Directed Length (km),Length Share (%)
+primary,584,64.9,19.9
+secondary,697,63.62,19.6
+tertiary,615,56.32,17.3
+residential,548,55.14,16.9
+trunk,100,45.77,14.1
+trunk_link,98,15.17,4.7
+primary_link,114,9.83,3.0
+motorway,8,5.97,1.8
+tertiary;secondary,3,1.85,0.6
+secondary_link,38,1.39,0.4
+motorway_link,5,1.31,0.4
+secondary;tertiary,2,1.13,0.3
+trunk_link;secondary,3,1.02,0.3
+tertiary_link,25,0.63,0.2
+tertiary_link;tertiary,4,0.56,0.2
+secondary_link;tertiary,2,0.42,0.1
+primary_link;tertiary,1,0.14,0.0
+tertiary;primary_link,1,0.12,0.0
+primary;secondary,1,0.03,0.0

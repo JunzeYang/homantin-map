@@ -1,0 +1,75 @@
+{
+  "input": {
+    "od_directory": "D:\\Cedric's Vault\\polyu\\project\\resilience_homantin\\HK&HMT OD flow from HKTCS022-myy-260905",
+    "all_od_csv": "D:\\Cedric's Vault\\polyu\\project\\resilience_homantin\\HK&HMT OD flow from HKTCS022-myy-260905\\all_tpusb_od_flow.csv",
+    "od_encoding": "utf-8-sig",
+    "note": "D:\\Cedric's Vault\\polyu\\project\\resilience_homantin\\HK&HMT OD flow from HKTCS022-myy-260905\\NOTE.md",
+    "tpusb_boundary": "D:\\Cedric's Vault\\polyu\\project\\resilience_homantin\\res\\od\\cache\\tpusb_2021.geojson",
+    "tpusb_source": "https://portal.csdi.gov.hk/csdi-webpage/file-api?dataset_id=pland_rcd_1634022783366_65050&format=geojson&layer_name=TPUSU_2021",
+    "tpusb_code_detection": "TPU + Subunit (3+3)"
+  },
+  "method": {
+    "routing_cost_downstream": "length_m",
+    "road_modes": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "road_proxy": "expanded_hk_flow multiplied by road-mode share among the modes listed in main_mode, using territory-wide WT_TRIP mode totals from NOTE.md; exact road-only OD cannot be recovered from the supplied aggregated main_mode field",
+    "connector_method": "up to K spatially spread actual road nodes per TPUSB; equal zone weights; connector-pair demand renormalized after zero-length same-node pairs are removed",
+    "seed": 20260905
+  },
+  "network": {
+    "nodes": 1733,
+    "directed_links": 2849
+  },
+  "domain": {
+    "network_bbox_hk80": [
+      833100.0725583294,
+      816195.648157908,
+      838701.8472591218,
+      821928.6970251856
+    ],
+    "domain_buffer_m": 150.0,
+    "study_zone_count": 1200,
+    "connector_count": 3019,
+    "zones_using_nearest_fallback": 486,
+    "connectors_per_zone_target": 3
+  },
+  "od": {
+    "domain_allmode_flow": 2037630.0855999999,
+    "domain_road_proxy_flow": 734594.9721718316,
+    "domain_zone_od_count": 1958,
+    "domain_intrazonal_count": 15
+  },
+  "connector_od": {
+    "connector_od_count": 12712,
+    "zone_road_proxy_flow": 734594.9721718316,
+    "connector_demand_total": 730035.8129514197,
+    "dropped_single_connector_intrazonal_flow": 4559.15922041189,
+    "flow_conservation_relative_error": 0.0
+  },
+  "mode_totals": {
+    "1": 4369936.8003,
+    "2": 291500.0881,
+    "3": 134671.5275,
+    "4": 57807.5802,
+    "5": 1133975.5668,
+    "6": 3091760.5132,
+    "7": 1905902.8078,
+    "8": 801600.3737,
+    "9": 575991.298,
+    "10": 71298.7024,
+    "99": 3755160.7893,
+    "999": 6836.0513
+  },
+  "outputs": {
+    "zone": "D:\\Cedric's Vault\\polyu\\project\\resilience_homantin\\res\\od\\zone.csv",
+    "zone_connector": "D:\\Cedric's Vault\\polyu\\project\\resilience_homantin\\res\\od\\zone_connector.csv",
+    "od_zone": "D:\\Cedric's Vault\\polyu\\project\\resilience_homantin\\res\\od\\od_zone.csv",
+    "od_connector": "D:\\Cedric's Vault\\polyu\\project\\resilience_homantin\\res\\od\\od_connector.csv",
+    "study_tpusb_geojson": "D:\\Cedric's Vault\\polyu\\project\\resilience_homantin\\res\\od\\study_tpusb.geojson"
+  }
+}

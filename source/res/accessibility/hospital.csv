@@ -1,0 +1,15 @@
+﻿hospital_id,institution_eng,institution_tc,cluster_eng,address_eng,with_ae,latitude,longitude,x_hk80,y_hk80,node_id,snap_dist_m
+0,Hong Kong Buddhist Hospital,香港佛教醫院,Kowloon Central Cluster,"10 Heng Lam Street, Lok Fu, KLN",False,22.33568,114.18874,837490.3675788479,821846.7998961859,1501,221.1487699635514
+1,Hong Kong Children's Hospital,香港兒童醫院,Kowloon Central Cluster,"1 Shing Cheong Road, Kowloon Bay, KLN",False,22.315757,114.20886,839563.5468888505,819640.932953302,1714,1187.9624094638466
+2,Hong Kong Eye Hospital,香港眼科醫院,Kowloon Central Cluster,"147K Argyle Street, KLN",False,22.324927,114.18462,837065.9972704238,820656.040540917,1173,105.80901823336073
+3,Kai Tak Hospital,啟德醫院,Kowloon Central Cluster,"2-3 Shing Cheong Road, Kowloon Bay, Kowloon",False,22.31764,114.20674,839345.0775707051,819849.4014727245,1714,890.5485767917663
+4,Kowloon Hospital,九龍醫院,Kowloon Central Cluster,"147A Argyle Street, KLN",False,22.323708,114.17957,836545.7218216126,820521.0367225419,1723,80.43870067292339
+5,Kwong Wah Hospital,廣華醫院,Kowloon Central Cluster,"25 Waterloo Road, KLN",True,22.31429,114.1721,835776.0832462141,819478.1426191585,599,12.878331288835879
+6,Our Lady of Maryknoll Hospital,聖母醫院,Kowloon Central Cluster,"118 Shatin Pass Road, Wong Tai Sin, KLN",False,22.345588,114.19657,838296.8503947172,822944.0466848894,329,1353.6118718873822
+7,Queen Elizabeth Hospital,伊利沙伯醫院,Kowloon Central Cluster,"30 Gascoigne Road, KLN",True,22.30886,114.17519,836094.449099916,818876.847157803,966,123.64970462052295
+8,Ruttonjee Hospital,律敦治醫院,Hong Kong Island Cluster,"266 Queen's Road East, Wan Chai, HK",True,22.275909,114.17529,836104.7156493618,815228.0406674852,395,1256.7042164274537
+9,Tang Shiu Kin Hospital,鄧肇堅醫院,Hong Kong Island Cluster,"282 Queen's Road East, Wan Chai, HK",False,22.275313,114.17774,836357.2161780621,815162.0426310682,395,1170.5322286447
+10,Tsan Yuk Hospital,贊育醫院,Hong Kong Island Cluster,"30 Hospital Road, Sai Ying Pun, HK",False,22.286146,114.14457,832938.9150431225,816361.9803546558,74,438.39248253063147
+11,Tung Wah Eastern Hospital,東華東院,Hong Kong Island Cluster,"19 Eastern Hospital Road, Causeway Bay, HK",False,22.274725,114.19026,837647.5546318229,815096.9922292085,394,1319.5922966241972
+12,Tung Wah Group of Hospitals Wong Tai Sin Hospital,東華三院黃大仙醫院,Kowloon Central Cluster,"124 Shatin Pass Road, Wong Tai Sin, KLN",False,22.346808,114.19632,838271.0803847149,823079.1400938196,329,1486.6186973940723
+13,Tung Wah Hospital,東華醫院,Hong Kong Island Cluster,"12 Po Yan Street, Sheung Wan, HK",False,22.284955,114.14661,833149.1183922915,816230.0524135154,74,537.5750160536096

@@ -1,0 +1,15 @@
+﻿hospital_id,institution_eng,institution_tc,with_ae,grid_count,grid_share,mean_m,median_m,p90_m
+0,Hong Kong Buddhist Hospital,香港佛教醫院,False,39,0.010836343428730202,142.96200000000005,0.0,746.9098000000006
+1,Hong Kong Children's Hospital,香港兒童醫院,False,7,0.001944984717977216,0.0,0.0,0.0
+2,Hong Kong Eye Hospital,香港眼科醫院,False,473,0.1314253959433176,1401.9351458773785,1466.855,2200.662
+3,Kai Tak Hospital,啟德醫院,False,0,0.0,,,
+4,Kowloon Hospital,九龍醫院,False,355,0.09863851069741594,1692.472025352113,1732.1720000000005,2393.814200000002
+5,Kwong Wah Hospital,廣華醫院,True,600,0.1667129758266185,2018.1290183333335,2309.309,3118.3079000000007
+6,Our Lady of Maryknoll Hospital,聖母醫院,False,11,0.0030564045568213394,0.0,0.0,0.0
+7,Queen Elizabeth Hospital,伊利沙伯醫院,True,1239,0.3442622950819672,2198.508357546408,2180.603,2488.619800000001
+8,Ruttonjee Hospital,律敦治醫院,True,69,0.019171992220061128,0.0,0.0,0.0
+9,Tang Shiu Kin Hospital,鄧肇堅醫院,False,0,0.0,,,
+10,Tsan Yuk Hospital,贊育醫院,False,169,0.046957488191164215,349.15813017751475,0.0,2043.513
+11,Tung Wah Eastern Hospital,東華東院,False,174,0.048346762989719363,0.0,0.0,0.0
+12,Tung Wah Group of Hospitals Wong Tai Sin Hospital,東華三院黃大仙醫院,False,0,0.0,,,
+13,Tung Wah Hospital,東華醫院,False,0,0.0,,,

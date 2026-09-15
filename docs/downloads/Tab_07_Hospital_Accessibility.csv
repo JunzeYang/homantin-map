@@ -1,0 +1,9 @@
+﻿Indicator,Value,Unit
+Grid origins,3599.0,100 m cells
+Reachable grid origins,3136.0,cells
+Reachable share,87.1353,%
+Unreachable share,12.8647,%
+Mean nearest-hospital network distance,1.6784,km
+Median nearest-hospital network distance,1.8133,km
+P90 nearest-hospital network distance,2.5152,km
+P95 nearest-hospital network distance,3.2458,km

@@ -1,0 +1,5 @@
+**/__pycache__/
+*.pyc
+source/code/.idea/
+.sites-runtime/
+.DS_Store

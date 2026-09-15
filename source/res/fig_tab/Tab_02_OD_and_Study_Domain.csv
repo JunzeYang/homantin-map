@@ -1,0 +1,14 @@
+﻿Item,Value,Unit_or_note
+Computational domain,Full current road-network envelope + OD boundary buffer,
+Shortest-path impedance,Road distance,length_m
+TPUSB zones,1200,zones
+Target road connectors per TPUSB,3,nodes/zone
+Generated TPUSB connectors,3019,connectors
+Zones using nearest-node fallback,486,zones
+Road-mode codes used for proxy,5|6|7|8|9,HKTCS main_mode codes
+All-mode OD flow in domain,2037630.0855999999,weighted person trips/reference weekday
+Road-proxy OD flow in domain,734594.9721718316,weighted person trips/reference weekday
+Road-proxy OD cells,1958,OD cells
+Connector OD records,12712,connector OD records
+Connector demand total,730035.8129514197,weighted person trips/reference weekday
+Dropped same-node intrazonal flow,4559.15922041189,weighted person trips/reference weekday

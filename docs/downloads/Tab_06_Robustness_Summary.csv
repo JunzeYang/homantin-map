@@ -1,0 +1,41 @@
+﻿Component,Attack Strategy,Performance Metric,AUC,AUC Interpretation,Threshold 1,Removal at Threshold 1 (%),Threshold 2,Removal at Threshold 2 (%),Threshold 3,Removal at Threshold 3 (%)
+Link,LSCC-targeted,GNE retained,0.3989,Higher is better,Retained = 90%,1.2896,Retained = 80%,2.9308,Retained = 50%,9.8218
+Link,LSCC-targeted,LSCC retained,0.2028,Higher is better,Retained = 90%,0.9006,Retained = 80%,1.8012,Retained = 50%,7.6127
+Link,LSCC-targeted,Reachable OD demand,0.1952,Higher is better,Retained = 90%,0.8047,Retained = 80%,1.6093,Retained = 50%,5.9766
+Link,LSCC-targeted,TTD loss,2.5118,Lower is better,TTD loss = 10%,0.2493,TTD loss = 25%,0.6232,TTD loss = 50%,1.2464
+Link,GNE-targeted,GNE retained,0.1202,Higher is better,Retained = 90%,0.379,Retained = 80%,0.7579,Retained = 50%,1.8948
+Link,GNE-targeted,LSCC retained,0.3604,Higher is better,Retained = 90%,2.3912,Retained = 80%,4.7437,Retained = 50%,13.1539
+Link,GNE-targeted,Reachable OD demand,0.1705,Higher is better,Retained = 90%,0.6848,Retained = 80%,1.3696,Retained = 50%,4.3522
+Link,GNE-targeted,TTD loss,2.5861,Lower is better,TTD loss = 10%,0.2115,TTD loss = 25%,0.5288,TTD loss = 50%,1.0576
+Link,BC-targeted,GNE retained,0.371,Higher is better,Retained = 90%,1.5729,Retained = 80%,3.3357,Retained = 50%,9.1841
+Link,BC-targeted,LSCC retained,0.3056,Higher is better,Retained = 90%,2.7416,Retained = 80%,6.1691,Retained = 50%,9.7646
+Link,BC-targeted,Reachable OD demand,0.262,Higher is better,Retained = 90%,2.0261,Retained = 80%,4.8683,Retained = 50%,8.1991
+Link,BC-targeted,TTD loss,2.3443,Lower is better,TTD loss = 10%,0.4719,TTD loss = 25%,1.1798,TTD loss = 50%,2.4044
+Link,Random,GNE retained,0.4157,Higher is better,Retained = 90%,2.7974,Retained = 80%,5.409,Retained = 50%,13.1527
+Link,Random,LSCC retained,0.3318,Higher is better,Retained = 90%,4.5014,Retained = 80%,7.5615,Retained = 50%,13.6696
+Link,Random,Reachable OD demand,0.3322,Higher is better,Retained = 90%,4.0324,Retained = 80%,6.8689,Retained = 50%,13.242
+Link,Random,TTD loss,2.1502,Lower is better,TTD loss = 10%,1.1567,TTD loss = 25%,2.6584,TTD loss = 50%,4.689
+Link,TTD-targeted,GNE retained,0.2793,Higher is better,Retained = 90%,0.5551,Retained = 80%,1.1102,Retained = 50%,4.951
+Link,TTD-targeted,LSCC retained,0.3366,Higher is better,Retained = 90%,1.7354,Retained = 80%,6.0683,Retained = 50%,14.17
+Link,TTD-targeted,Reachable OD demand,0.1619,Higher is better,Retained = 90%,0.4888,Retained = 80%,0.9776,Retained = 50%,3.4561
+Link,TTD-targeted,TTD loss,2.6134,Lower is better,TTD loss = 10%,0.1558,TTD loss = 25%,0.3896,TTD loss = 50%,0.7791
+Node,LSCC-targeted,GNE retained,0.4027,Higher is better,Retained = 90%,1.471,Retained = 80%,3.3336,Retained = 50%,9.2698
+Node,LSCC-targeted,LSCC retained,0.2613,Higher is better,Retained = 90%,1.1381,Retained = 80%,2.5004,Retained = 50%,9.9246
+Node,LSCC-targeted,Reachable OD demand,0.2219,Higher is better,Retained = 90%,1.0391,Retained = 80%,2.0976,Retained = 50%,8.0311
+Node,LSCC-targeted,TTD loss,2.4387,Lower is better,TTD loss = 10%,0.3178,TTD loss = 25%,0.7946,TTD loss = 50%,1.5891
+Node,GNE-targeted,GNE retained,0.0951,Higher is better,Retained = 90%,0.3715,Retained = 80%,0.743,Retained = 50%,1.8575
+Node,GNE-targeted,LSCC retained,0.4184,Higher is better,Retained = 90%,2.7864,Retained = 80%,6.1503,Retained = 50%,12.5216
+Node,GNE-targeted,Reachable OD demand,0.1384,Higher is better,Retained = 90%,0.62,Retained = 80%,1.2399,Retained = 50%,3.2652
+Node,GNE-targeted,TTD loss,2.6717,Lower is better,TTD loss = 10%,0.1952,TTD loss = 25%,0.4881,TTD loss = 50%,0.9762
+Node,BC-targeted,GNE retained,0.3255,Higher is better,Retained = 90%,1.0734,Retained = 80%,2.2549,Retained = 50%,7.5605
+Node,BC-targeted,LSCC retained,0.3674,Higher is better,Retained = 90%,2.7013,Retained = 80%,5.9529,Retained = 50%,14.8374
+Node,BC-targeted,Reachable OD demand,0.24,Higher is better,Retained = 90%,1.2549,Retained = 80%,2.5234,Retained = 50%,7.8346
+Node,BC-targeted,TTD loss,2.4199,Lower is better,TTD loss = 10%,0.3403,TTD loss = 25%,0.8509,TTD loss = 50%,1.7017
+Node,Random,GNE retained,0.3401,Higher is better,Retained = 90%,1.7926,Retained = 80%,3.7023,Retained = 50%,10.0528
+Node,Random,LSCC retained,0.2875,Higher is better,Retained = 90%,3.2538,Retained = 80%,5.6791,Retained = 50%,11.2299
+Node,Random,Reachable OD demand,0.2575,Higher is better,Retained = 90%,2.2836,Retained = 80%,4.4128,Retained = 50%,9.7764
+Node,Random,TTD loss,2.347,Lower is better,TTD loss = 10%,0.6339,TTD loss = 25%,1.5848,TTD loss = 50%,3.1172
+Node,TTD-targeted,GNE retained,0.2028,Higher is better,Retained = 90%,0.45,Retained = 80%,0.9,Retained = 50%,2.7074
+Node,TTD-targeted,LSCC retained,0.4393,Higher is better,Retained = 90%,2.5622,Retained = 80%,6.487,Retained = 50%,16.9263
+Node,TTD-targeted,Reachable OD demand,0.1239,Higher is better,Retained = 90%,0.4425,Retained = 80%,0.8849,Retained = 50%,2.5228
+Node,TTD-targeted,TTD loss,2.7118,Lower is better,TTD loss = 10%,0.1419,TTD loss = 25%,0.3546,TTD loss = 50%,0.7093

@@ -1,0 +1,15 @@
+﻿Hospital ID,Hospital,A&E,Assigned Grid Cells,Grid Share (%),Mean Distance (km),Median Distance (km),P90 Distance (km)
+0,Hong Kong Buddhist Hospital,False,39,1.0836,0.143,0.0,0.7469
+1,Hong Kong Children's Hospital,False,7,0.1945,0.0,0.0,0.0
+2,Hong Kong Eye Hospital,False,473,13.1425,1.4019,1.4669,2.2007
+3,Kai Tak Hospital,False,0,0.0,,,
+4,Kowloon Hospital,False,355,9.8639,1.6925,1.7322,2.3938
+5,Kwong Wah Hospital,True,600,16.6713,2.0181,2.3093,3.1183
+6,Our Lady of Maryknoll Hospital,False,11,0.3056,0.0,0.0,0.0
+7,Queen Elizabeth Hospital,True,1239,34.4262,2.1985,2.1806,2.4886
+8,Ruttonjee Hospital,True,69,1.9172,0.0,0.0,0.0
+9,Tang Shiu Kin Hospital,False,0,0.0,,,
+10,Tsan Yuk Hospital,False,169,4.6957,0.3492,0.0,2.0435
+11,Tung Wah Eastern Hospital,False,174,4.8347,0.0,0.0,0.0
+12,Tung Wah Group of Hospitals Wong Tai Sin Hospital,False,0,0.0,,,
+13,Tung Wah Hospital,False,0,0.0,,,

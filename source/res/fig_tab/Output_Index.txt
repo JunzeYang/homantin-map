@@ -1,0 +1,71 @@
+Ho Man Tin / Central Kowloon Road-Network Resilience – Output Index
+========================================================================
+Output script version: 2026-09-06-od-distance-v5-contrast-cache-fix
+
+TERMINOLOGY
+-----------
+BC: OD-demand-weighted betweenness centrality.
+GNE: demand-weighted global network efficiency.
+LSCC: largest strongly connected component.
+TTD: demand-weighted total travel distance.
+
+ROUTING / OD
+------------
+Shortest-path impedance is road distance (length_m) on the directed network.
+Zone OD is distributed across road connector pairs before shortest-path routing.
+Each connector OD pair is assigned to a shortest-distance route; equal-length parallel
+links share load equally. No congestion equilibrium or capacity model is used.
+
+CRITICALITY
+-----------
+Map colors/sizes are normalized within each metric to 0-1 for visualization; mild nonlinear color normalization improves contrast without altering metric values or rankings.
+GNE, LSCC and TTD criticality are isolated-removal losses; BC is OD-weighted shortest-path load.
+
+ROBUSTNESS
+----------
+Fig. 03 reports GNE retained, LSCC retained and reachable OD demand.
+Random removal is averaged over cumulative Monte Carlo sequences; targeted removal
+uses static intact-network BC, GNE-loss, LSCC-loss and TTD-loss rankings.
+Fig. 08 uses normalized AUC: integral of retained performance over removal fraction,
+divided by the evaluated removal-fraction span. Higher AUC means greater robustness.
+TTD-loss AUC is not displayed in Fig. 08 because it is a loss metric (lower is better) and is not
+bounded on the same 0-1 retention scale; Tab. 06 reports its AUC and 10/25/50% loss thresholds separately.
+
+HOSPITAL ACCESSIBILITY
+----------------------
+Hospital accessibility uses shortest road-network distance from each 100 m grid origin; nearest-hospital catchments are defined by the hospital receiving each grid cell under that distance rule.
+Hospital accessibility loss is the reduction in the share of grid cells that can reach
+at least one hospital. P90 distance is computed among grid cells that remain accessible.
+
+CARTOGRAPHY
+-----------
+Basemap used: yes.
+Road-label source: Lands Department Road Centreline (matched locally), with OSM/link-ID fallback.
+Node criticality uses blue; link criticality uses red.
+
+FIGURES
+-------
+Fig_00_Study_Area.jpg: Road network and dissolved Ho Man Tin focal-area boundary.
+Fig_01_Node_Criticality.jpg: Normalized node criticality by BC, GNE, LSCC and TTD.
+Fig_02_Link_Criticality.jpg: Normalized link criticality by BC, GNE, LSCC and TTD.
+Fig_03_Network_Robustness.jpg: GNE, LSCC and reachable OD-demand retention under random and targeted removal.
+Fig_04_Multi_Metric_Criticality.jpg: Complementary BC-GNE bubble views: LSCC size/TTD color and TTD size/LSCC color for nodes and links.
+Fig_05_Network_Accessibility.jpg: Node harmonic accessibility and its distribution.
+Fig_06_Hospital_Accessibility.jpg: Nearest-hospital network distance, nearest-hospital catchments and distance distribution, with the road network overlaid.
+Fig_07_Hospital_Accessibility_Impact.jpg: Isolated node/link impacts on hospital accessibility and P90 distance.
+Fig_08_Robustness_Summary.jpg: Normalized AUC summary for the three retained-performance metrics in Fig. 03.
+
+TABLES
+------
+Tab_01_Network_Overview.csv: Core network, OD, baseline-performance and hospital-accessibility quantities.
+Tab_02_OD_and_Study_Domain.csv: OD proxy construction and connector summary.
+Tab_03_Road_Class_Composition.csv: Road-link count and length by road class.
+Tab_04_Top_Nodes_by_Metric.csv: Top nodes ranked separately by BC, GNE, LSCC and TTD criticality.
+Tab_05_Top_Links_by_Metric.csv: Top links ranked separately by BC, GNE, LSCC and TTD criticality.
+Tab_06_Robustness_Summary.csv: AUC and thresholds for GNE/LSCC/OD-demand retention plus TTD loss; direction of better performance is stated explicitly.
+Tab_07_Hospital_Accessibility.csv: Baseline hospital-accessibility summary.
+Tab_08_Hospital_Catchments.csv: Nearest-hospital catchment statistics.
+Tab_09_Hospital_Critical_Nodes.csv: Nodes with greatest isolated hospital-accessibility impacts.
+Tab_10_Hospital_Critical_Links.csv: Links with greatest isolated hospital-accessibility impacts.
+
+All CSV tables are UTF-8 with BOM for reliable Excel display.

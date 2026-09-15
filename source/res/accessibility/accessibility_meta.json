@@ -1,0 +1,57 @@
+{
+  "input": {
+    "node_encoding": "utf-8-sig",
+    "link_encoding": "gb18030"
+  },
+  "study_domain": {
+    "definition": "full current road-network envelope",
+    "bbox_hk80": {
+      "minx_hk80": 833000.0622442244,
+      "miny_hk80": 816095.603862947,
+      "maxx_hk80": 838801.8163582977,
+      "maxy_hk80": 822028.697024566
+    },
+    "grid_size_m": 100.0,
+    "grid_padding_m": 100.0,
+    "grid_cell_count": 3599,
+    "all_grid_cells_retained": true,
+    "max_grid_snap_distance_m": 1964.252169937958
+  },
+  "hospitals": {
+    "source": "cache",
+    "count": 14,
+    "external_buffer_m": 1500.0,
+    "snap_max_m": 1500.0
+  },
+  "distance_model": "directed shortest-path road distance using length_m only",
+  "baseline_hospital_access": {
+    "origin_count": 3599,
+    "reachable_count": 3136,
+    "reachable_share": 0.8713531536537927,
+    "mean_m": 1678.3658804209185,
+    "median_m": 1813.3350000000003,
+    "p90_m": 2515.206,
+    "p95_m": 3245.7529999999997
+  },
+  "progressive_strategies": [
+    "lscc",
+    "od_eff",
+    "odbc",
+    "random",
+    "td"
+  ],
+  "runtime_seconds": 22.8174147,
+  "outputs": {
+    "node_access": "D:\\Cedric's Vault\\polyu\\project\\resilience_homantin\\res\\accessibility\\node_access.csv",
+    "grid": "D:\\Cedric's Vault\\polyu\\project\\resilience_homantin\\res\\accessibility\\grid.csv",
+    "hospital": "D:\\Cedric's Vault\\polyu\\project\\resilience_homantin\\res\\accessibility\\hospital.csv",
+    "hospital_access": "D:\\Cedric's Vault\\polyu\\project\\resilience_homantin\\res\\accessibility\\hospital_access.csv",
+    "hospital_summary": "D:\\Cedric's Vault\\polyu\\project\\resilience_homantin\\res\\accessibility\\hospital_summary.csv",
+    "hospital_catchment": "D:\\Cedric's Vault\\polyu\\project\\resilience_homantin\\res\\accessibility\\hospital_catchment.csv",
+    "access_impact": "D:\\Cedric's Vault\\polyu\\project\\resilience_homantin\\res\\accessibility\\access_impact.csv",
+    "access_removal_raw": "D:\\Cedric's Vault\\polyu\\project\\resilience_homantin\\res\\accessibility\\access_removal_raw.csv",
+    "access_removal_curve": "D:\\Cedric's Vault\\polyu\\project\\resilience_homantin\\res\\accessibility\\access_removal_curve.csv",
+    "access_removal_summary": "D:\\Cedric's Vault\\polyu\\project\\resilience_homantin\\res\\accessibility\\access_removal_summary.csv"
+  },
+  "test_mode": false
+}

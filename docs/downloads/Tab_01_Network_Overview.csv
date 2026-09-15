@@ -1,0 +1,17 @@
+﻿Indicator,Value,Unit
+Road-network nodes,1733.0,nodes
+Directed road links,2849.0,links
+Unique ordered node pairs,2833.0,pairs
+Total directed road length,325.3173,km
+Median link length,64.007,m
+TPUSB zones intersecting computational domain,1200.0,zones
+Road-proxy TPUSB OD cells,1958.0,zone OD cells
+Road-proxy TPUSB OD flow,734594.9722,weighted person trips/reference weekday
+Active connector OD pairs,8621.0,connector OD pairs
+Active connector demand,567073.7206,weighted person trips/reference weekday
+Baseline OD reachability,77.6775,% of connector demand
+Baseline GNE,0.6718,km^-1
+Baseline LSCC share,89.0941,% of nodes
+Baseline TTD,1.5743,million km-trip
+Hospital-accessibility grid,3599.0,100 m cells
+Hospital candidates,14.0,hospitals

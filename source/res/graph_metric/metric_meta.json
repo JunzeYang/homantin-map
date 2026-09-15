@@ -1,0 +1,67 @@
+{
+  "input": {
+    "node_csv": "D:\\Cedric's Vault\\polyu\\project\\resilience_homantin\\node.csv",
+    "link_csv": "D:\\Cedric's Vault\\polyu\\project\\resilience_homantin\\link.csv",
+    "od_connector_csv": "D:\\Cedric's Vault\\polyu\\project\\resilience_homantin\\res\\od\\od_connector.csv",
+    "node_encoding": "utf-8-sig",
+    "link_encoding": "gb18030",
+    "od_encoding": "utf-8-sig"
+  },
+  "graph": {
+    "nodes": 1733,
+    "directed_links": 2849,
+    "unique_ordered_node_pairs": 2833,
+    "weight": "length_m",
+    "directed": true,
+    "parallel_links": true
+  },
+  "metrics": {
+    "common_node_link_metrics": [
+      "odbc",
+      "od_eff_loss",
+      "lscc_loss",
+      "td_loss"
+    ],
+    "odbc": "OD-weighted distance-shortest-path load / total active OD demand; road access endpoint nodes included; tied minimum parallel links split equally",
+    "od_eff_loss": "relative loss of sum(q/d)/sum(q) after isolated removal",
+    "lscc_loss": "relative loss of largest strongly connected component share",
+    "td_loss": "relative increase of demand-weighted total distance; newly unreachable OD assigned baseline distance + max baseline OD distance",
+    "unreachable_diagnostic": "reachable_demand_share is saved for every isolated removal"
+  },
+  "baseline": {
+    "n_nodes": 1733,
+    "n_directed_links": 2849,
+    "raw_connector_demand": 730035.8129514196,
+    "active_connector_demand": 567073.7206150248,
+    "baseline_reachable_demand_share": 0.7767752082222312,
+    "od_efficiency": 0.0006718278773220594,
+    "lscc_share": 0.8909405654933641,
+    "total_distance_m_trip": 1574335933.3296878,
+    "disconnect_penalty_m": 8551.073999999997,
+    "active_od_pairs": 8621,
+    "od_source_nodes": 832
+  },
+  "od_path_loading": {
+    "active_demand": 567073.7206150248,
+    "node_load_sum": 16396138.654305592,
+    "link_load_sum": 15829064.933690563,
+    "path_loading_failures": 0
+  },
+  "runtime_seconds": {
+    "isolated_removals": 109.3191326,
+    "total": 110.88707140000001
+  },
+  "parallel": {
+    "enabled": true,
+    "workers": 8
+  },
+  "outputs": {
+    "node_metric": "D:\\Cedric's Vault\\polyu\\project\\resilience_homantin\\res\\graph_metric\\node_metric.csv",
+    "link_metric": "D:\\Cedric's Vault\\polyu\\project\\resilience_homantin\\res\\graph_metric\\link_metric.csv",
+    "summary": "D:\\Cedric's Vault\\polyu\\project\\resilience_homantin\\res\\graph_metric\\summary.csv",
+    "active_od": "D:\\Cedric's Vault\\polyu\\project\\resilience_homantin\\res\\graph_metric\\cache\\od_active.csv",
+    "node_index": "D:\\Cedric's Vault\\polyu\\project\\resilience_homantin\\res\\graph_metric\\cache\\node_index.csv"
+  },
+  "test_components": 0,
+  "seed": 20260905
+}

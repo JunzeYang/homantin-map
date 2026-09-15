@@ -1,0 +1,62 @@
+{
+  "method": {
+    "routing_cost": "length_m",
+    "targeted_rankings": {
+      "odbc": "odbc",
+      "od_eff": "od_eff_loss",
+      "lscc": "lscc_loss",
+      "td": "td_loss"
+    },
+    "random_runs": 30,
+    "fractions": [
+      0.0,
+      0.02,
+      0.04,
+      0.06,
+      0.08,
+      0.1,
+      0.12,
+      0.14,
+      0.16,
+      0.18,
+      0.2,
+      0.22,
+      0.24,
+      0.26,
+      0.28,
+      0.3,
+      0.32,
+      0.34,
+      0.36,
+      0.38,
+      0.4
+    ],
+    "static_targeted_ranking": true,
+    "odbc_as_performance_curve": false,
+    "odbc_curve_reason": "ODBC is a component ranking/load centrality; its network-wide sum changes with path hop count and rerouting and is not treated as a system-performance measure."
+  },
+  "baseline": {
+    "od_efficiency": 0.0006718278773220594,
+    "lscc_share": 0.8909405654933641,
+    "total_distance_m_trip": 1574335933.3296878,
+    "disconnect_penalty_m": 8551.073999999997,
+    "active_connector_demand": 567073.7206150248
+  },
+  "performance_fields": [
+    "od_eff_norm",
+    "lscc_norm",
+    "td_loss",
+    "reachable_demand_share"
+  ],
+  "parallel": {
+    "workers": 6
+  },
+  "runtime_seconds": 17.7343054,
+  "outputs": {
+    "raw": "D:\\Cedric's Vault\\polyu\\project\\resilience_homantin\\res\\removal\\removal_raw.csv",
+    "curve": "D:\\Cedric's Vault\\polyu\\project\\resilience_homantin\\res\\removal\\removal_curve.csv",
+    "summary": "D:\\Cedric's Vault\\polyu\\project\\resilience_homantin\\res\\removal\\removal_summary.csv",
+    "sequence": "D:\\Cedric's Vault\\polyu\\project\\resilience_homantin\\res\\removal\\removal_sequence.csv"
+  },
+  "seed": 20260905
+}

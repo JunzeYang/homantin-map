@@ -1,0 +1,18 @@
+{
+  "source/res/graph_metric/link_metric.csv": "fed6e1fd553e499d98ac9b80126a5c8b1006683b09cf723cc711bdc73ee7b8b2",
+  "source/res/graph_metric/node_metric.csv": "faab1331caa5dcb4c0057809ca3756a7b7081cca8de60b990ffc0009558d16b4",
+  "source/res/accessibility/access_impact.csv": "12edb8d829fdbccb60adda7749689829f62b43b001cea876903b5a03c3d79e2d",
+  "source/res/accessibility/node_access.csv": "cd9d9808ac4cde6feabbabd6f3e42694cc9460ded1e48d9c93ca2ba19e14bf03",
+  "source/res/accessibility/hospital_access.csv": "46ceeeb8d7fcc699de791a51ec99b22e64598e8d753e2cc642a1c0a31b0bc2b4",
+  "source/res/accessibility/hospital_catchment.csv": "7778436d324e609e61e3334fb4625ab4f97e3869fb26315a8690a22ea22d199f",
+  "source/res/accessibility/hospital.csv": "aa6a734ba0a0a78e3f139019ffb5cf136f2ef296a1d0ec173747ad0bd45b1d32",
+  "source/res/od/study_tpusb.geojson": "79b08e864d084a23c7d336351dd0faa641ed82a47ff4a4c205452f79ad0f1281",
+  "source/res/removal/removal_sequence.csv": "82c0785005e3949528bc9449534e4e8a88e8e2531b40daa7114fa1f415b75b14",
+  "source/res/graph_metric/metric_meta.json": "34cf80bb16adb80952fe7b3b36224c6a56fc41e1e136cd0809e91b0e1caa8df3",
+  "source/res/accessibility/accessibility_meta.json": "a550a4e6b674228ddb19d80c2964f7c84a35a2e6c7c62d888332c76bf7a22abe",
+  "source/res/od/od_meta.json": "24fdace9c66f9bf4960732e51d53d89cd1fe8787e80fa777051e231060a41ad0",
+  "source/res/removal/removal_meta.json": "01a7f5f44f7e7f0e8e7cb76004ff10b497bbbed21fb684963a0d38a6c5c03ace",
+  "source/res/removal/removal_curve.csv": "3b0bb8024d3d40f67c289cea1e8320b3577d546f1271089845198dbcdceb87ad",
+  "source/res/accessibility/access_removal_curve.csv": "39601a17b9b009a86e06702059da557a0b9203a967d75b8f1d4f1f0cafe75944",
+  "source/res/removal/removal_summary.csv": "06aa8c586df9b1c550825e8f0d77314213e480c17b83c1f10728a96ab0f8046d"
+}
